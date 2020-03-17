@@ -1,6 +1,6 @@
 # AzureSpotWorker - Folding@Home
 
-<a href="https://azuredeploy.net/" target="_blank">
+<a href="https://azuredeploy.net/?repository=https://github.com/covid19folding/AzureSpotVMWorker" target="_blank">
     <img src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/deploybutton.png"/>
 </a>
 
