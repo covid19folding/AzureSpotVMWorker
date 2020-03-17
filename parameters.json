@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southcentralus"
+        },
+        "networkInterfaceName": {
+            "value": "worker01"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/d1b253d6-f707-4849-a382-bd5b5cbce2fe/resourceGroups/folding/providers/Microsoft.Network/networkSecurityGroups/foldingNSGSC"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/d1b253d6-f707-4849-a382-bd5b5cbce2fe/resourceGroups/folding/providers/Microsoft.Network/virtualNetworks/foldingVNetSC"
+        },
+        "virtualMachineName": {
+            "value": "worker01"
+        },
+        "virtualMachineRG": {
+            "value": "folding"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_NV4as_v4"
+        },
+        "adminUsername": {
+            "value": "foldingadmin"
+        },
+        "adminPassword": {
+            "value": null
+        }
+    }
+}
