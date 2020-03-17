@@ -1,4 +1,10 @@
 # AzureSpotWorker - Folding@Home
+
+<a href="https://azuredeploy.net/" target="_blank">
+    <img src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/deploybutton.png"/>
+</a>
+
+
 This is an ARM (Azure Resource Manager) template to deploy an Azure Spot VM instance specifically for the Folding@home client.
 
 You will need to update the parameters JSON file to reflect your own Azure subscription and resources.
