@@ -13,4 +13,6 @@ Install the AMD GPU drivers for your worker VM here: https://docs.microsoft.com/
 
 To enable automatic logon and folding on your worker client at boot, use the Sysinternal Autologon tool: https://docs.microsoft.com/en-us/sysinternals/downloads/autologon
 
+Use the StartAzureV2Vm Automation Runbook to automatically start your folding worker VMs if they are evicted due to demand: https://gallery.technet.microsoft.com/scriptcenter/Start-Azure-ARM-VMs-66fb875d
+
 Please reach out to me if I can help with your setup: info@covid19folding.org or @josh_heffner on Twitter.
